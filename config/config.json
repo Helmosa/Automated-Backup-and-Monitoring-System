@@ -1,0 +1,32 @@
+{
+  "mysql": [
+    {
+      "host": "127.0.0.1",
+      "user": "root",
+      "password": "secret",
+      "database": "db1"
+    }
+  ],
+  "mssql": [
+    {
+      "server": "127.0.0.2",
+      "user": "sa",
+      "password": "secret",
+      "database": "mssqldb1"
+    }
+  ],
+  "notifications": {
+    "email": {
+      "enabled": true,
+      "smtp_server": "smtp.example.com",
+      "port": 587,
+      "username": "admin@example.com",
+      "password": "emailpassword",
+      "to": "sysadmin@example.com"
+    },
+    "slack": {
+      "enabled": true,
+      "webhook_url": "https://hooks.slack.com/services/XXX/YYY/ZZZ"
+    }
+  }
+}

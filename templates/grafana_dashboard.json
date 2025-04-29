@@ -1,0 +1,7 @@
+{
+  "title": "PowerShell Backup Dashboard",
+  "panels": [
+    {"type": "graph", "title": "Backup Success Rate", "targets": [{"expr": "backup_success"}]},
+    {"type": "graph", "title": "Backup Duration", "targets": [{"expr": "backup_duration_seconds"}]}
+  ]
+}
